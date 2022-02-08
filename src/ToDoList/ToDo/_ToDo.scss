@@ -11,7 +11,6 @@
         font-weight: 500;   
         width: 75%;
         color: #222831;
-        // overflow-x: scroll;
     }
     .toDo_div{
         width: 25%;
@@ -39,4 +38,25 @@
 }
 .completed{
     opacity: 0.2;
+}
+
+@media(max-width: 576px){
+    .toDo{
+        width: 90%;
+        margin: 0rem auto 1rem auto;
+        border: none;
+        .toDo_p{
+            font-size: 1rem;
+            width: 70%;
+        }
+        .toDo_div{
+            width: 30%;
+            .toDo_div_button{
+                padding: 0.8rem;
+                .toDo_div_button_span{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
 }

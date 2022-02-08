@@ -26,3 +26,22 @@
         }
     }
 }
+
+@media(max-width: 576px){
+    .form{
+        width: 100%;
+        .form_form{
+            width: 90%;
+            margin: 0rem auto;
+            .form_form_input{
+                font-size: 1rem;
+            }
+            .form_form_button{
+                padding: 0.8rem;
+                .form_form_button_span{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

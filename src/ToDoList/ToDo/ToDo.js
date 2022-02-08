@@ -1,7 +1,7 @@
 import React from 'react';
 import './_ToDo.scss';
 
-const ToDo = ({toDo, completed, text, id, toDos, setToDos}) => {
+const ToDo = ({toDo, completed, text, toDos, setToDos}) => {
     
     const handleComplete = () => {
         setToDos(toDos.map(item => {
@@ -26,9 +26,7 @@ const ToDo = ({toDo, completed, text, id, toDos, setToDos}) => {
             <button className='toDo_div_button' onClick={handleDelete}><span className='fas fa-times toDo_div_button_span'/></button>
           </div>
       </div>
-    ) 
-  
-  
+    )
 };
 
 export default ToDo;

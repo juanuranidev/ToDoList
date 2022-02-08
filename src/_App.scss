@@ -10,3 +10,11 @@
         color: #00ADB5;
     }
 }
+
+@media(max-width: 576px){
+    .app{
+        .app_h1{
+            font-size: 2rem; 
+        }
+    }
+}
