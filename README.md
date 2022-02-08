@@ -1,5 +1,5 @@
 # To Do List
-To do list app.<br>
+To do list app made with ReactJS and SASS.<br>
 
 # Demo
 https://todolistjuandev.netlify.app/<br>
@@ -12,7 +12,8 @@ https://todolistjuandev.netlify.app/<br>
 # Features
 Add a to do item<br>
 Delete a to do item<br>
-Complete a to do item
+Complete a to do item<br>
+Items are stored in localStorage
 
 # Libraries
 **SASS for styles 1.49.7**<br>

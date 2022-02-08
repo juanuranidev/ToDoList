@@ -16,7 +16,7 @@ const Form = ({toDos, setToDos, inputText, setInputText}) => {
     return (
       <div className='form'>
           <form className='form_form'>
-              <input className='form_form_input' type='text' value={inputText} onChange={handleInputText} ></input>
+              <input autoFocus className='form_form_input' type='text' value={inputText} onChange={handleInputText} ></input>
               {inputText
               ? <button className='form_form_button' type='submit' onClick={handleSubmit}><span className='fas fa-plus form_form_button_span'/></button>
               : <button className='form_form_button' disabled><span className='fas fa-plus form_form_button_span'/></button>} 
