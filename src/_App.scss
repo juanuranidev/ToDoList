@@ -1,0 +1,12 @@
+.app{
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .app_h1{
+        margin: 4rem auto;
+        font-size: 3rem; 
+        color: #00ADB5;
+    }
+}

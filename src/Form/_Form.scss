@@ -1,0 +1,28 @@
+.form{
+    margin-bottom: 4rem;
+    .form_form{
+        display: flex;
+        justify-content: center;
+        .form_form_input{
+            padding: 0rem 0.5rem;
+            margin-right: 0.4rem;
+            font-size: 1.6rem;
+            border: none;
+            box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.4);
+        }
+        .form_form_button{
+            background-color: #00ADB5;
+            border: none;
+            padding: 1rem;
+            border-radius: 0.25rem;
+            color: #222831;
+            cursor: pointer;
+            .form_form_button_span{
+                font-size: 1.5rem;
+            }
+        }
+        .form_form_button:active{
+            transform: scale(.95);
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.toDo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35rem;
+    background-color: #EEEEEE;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    .toDo_p{
+        font-size: 1.6rem;
+        font-weight: 500;   
+        width: 75%;
+        color: #222831;
+        // overflow-x: scroll;
+    }
+    .toDo_div{
+        width: 25%;
+        display: flex;
+        background-color: #222831;
+        .toDo_div_button{
+            display: flex;
+            justify-content: center;
+            background-color: #00ADB5;
+            border: none;
+            padding: 1rem;
+            color: #222831;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            width: 50%;
+            margin-left: 0.4rem;
+            .toDo_div_button_span{
+                font-size: 1.5rem;
+            }
+        }
+        .toDo_div_button:active{
+            transform: scale(.95);
+        }
+    }
+}
+.completed{
+    opacity: 0.2;
+}

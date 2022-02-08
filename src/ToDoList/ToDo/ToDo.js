@@ -1,4 +1,5 @@
 import React from 'react';
+import './_ToDo.scss';
 
 const ToDo = ({toDo, completed, text, id, toDos, setToDos}) => {
     
@@ -18,11 +19,13 @@ const ToDo = ({toDo, completed, text, id, toDos, setToDos}) => {
     }
 
     return (
-      <tr id={id} className={completed===false?'incomplete' :'completed'}>
-          <td>{text}</td>
-          <td><button onClick={handleComplete}><span className='fas fa-check'/></button></td>
-          <td><button onClick={handleDelete}><span className='fas fa-times'/></button></td>
-      </tr>
+      <div className={completed===false?'toDo incomplete' :'toDo completed'}>
+          <p className='toDo_p'>{text}</p>
+          <div className='toDo_div'>
+            <button className='toDo_div_button' onClick={handleComplete}><span className='fas fa-check toDo_div_button_span'/></button>
+            <button className='toDo_div_button' onClick={handleDelete}><span className='fas fa-times toDo_div_button_span'/></button>
+          </div>
+      </div>
     ) 
   
   
