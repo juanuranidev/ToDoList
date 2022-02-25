@@ -1,5 +1,5 @@
 # To Do List
-To do list app made with ReactJS and SASS.<br>
+To do list app to save your tasks of the day, Made with ReactJS, SASS and Localstorage.<br>
 
 # Demo
 https://todolistjuandev.netlify.app/<br>
@@ -21,4 +21,7 @@ npm install sass<br>
 https://create-react-app.dev/docs/adding-a-sass-stylesheet/
 
 # My Portfolio
-https://juanuranidev.github.io/portfolio/<br>
+https://juanurani.netlify.app/
+
+# My LinkedIn
+https://www.linkedin.com/in/juanurani/

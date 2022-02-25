@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222831;
+}
+
 .app{
-    margin: 5rem auto;
+    height: 95vh;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     .app_h1{
         margin: 4rem auto;

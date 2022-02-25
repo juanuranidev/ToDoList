@@ -1,0 +1,17 @@
+.personalPage{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    background-color: #00ADB5;
+    .personalPage_p{
+        color: #ffffff;
+        font-weight: 600;
+        .personalPage_p_span{
+            color: #b6332b;
+        }
+        .personalPage_p_a{
+            color: #ffffff;
+            font-size: 700;
+        }
+    }
+}
